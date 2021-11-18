@@ -169,3 +169,20 @@ La terminal te preguntará tu usuario y contraseña (En el caso de la contraseñ
 ```
 
 ¡Felicitaciones, acabas de subir tu primer git commit!
+
+
+Apuntes: comandos basicos de la terminal.
+
+que carpetas tengo en el escritorio? 
+ * $-ls ( nos permite ver todas las carpetas que tenemos en esa carpeta)
+ * cd .. (Para volver un directorio hacia atras)
+  * cd (nombre de la carpeta) 
+  (Para ir a una carpeta especifica)
+
+  * clear (limpia la consola)
+  * mkdir (Crea carpeta)
+  * touch (Crea archivos)
+  * rm (Elimina archivos)
+  * rmdir (Elimina carpetas)
+  * Tenemos que saber en donde estamos parados pára saber donde vamos a clonar.
+  * git clone (https://github.com/B4NJY/repositorioHenry.git)

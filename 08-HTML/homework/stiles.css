@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+:root{
+    /*Paleta Colores*/
+    --c1-color:#AF6406;
+    --c2-color:#6C7F10;
+    --c3-color:#6C7F10;
+    --c4-color:black;
+    --f-primary: 'exo 2','times new roman';
+}
+
+body {
+    font-family: var(--f-primary);
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1042%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(190%2c 207%2c 17%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c425.74C79.67%2c424.263%2c162.27%2c395.602%2c217.046%2c337.73C268.241%2c283.641%2c253.085%2c197.391%2c281.349%2c128.488C308.042%2c63.415%2c385.526%2c15.587%2c377.865%2c-54.329C370.216%2c-124.133%2c290.562%2c-158.86%2c244.092%2c-211.507C198.151%2c-263.555%2c173.614%2c-345.046%2c106.293%2c-361.999C38.914%2c-378.967%2c-18.994%2c-311.011%2c-86.553%2c-294.773C-159.222%2c-277.307%2c-249.526%2c-314.592%2c-303.973%2c-263.394C-357.955%2c-212.634%2c-346.019%2c-123.981%2c-346.98%2c-49.888C-347.84%2c16.382%2c-329.141%2c78.006%2c-309.223%2c141.218C-286.488%2c213.373%2c-277.95%2c294.649%2c-222.279%2c345.873C-163.145%2c400.284%2c-80.344%2c427.229%2c0%2c425.74' fill='%2394a20d'%3e%3c/path%3e%3cpath d='M1440 990.787C1528.555 992.216 1618.971 1001.0609999999999 1698.8 962.701 1784.174 921.677 1852.884 852.284 1899.649 769.915 1949.191 682.656 2005.028 577.997 1970.76 483.688 1936.233 388.664 1796.6680000000001 384.70799999999997 1731.5729999999999 307.35 1664.8890000000001 228.10399999999998 1693.171 65.39499999999998 1593.907 35.84000000000003 1494.79 6.328999999999951 1423.872 142.98200000000003 1330.776 188.01799999999997 1257.621 223.40699999999998 1160.754 210.507 1106.951 271.411 1053.061 332.414 1058.033 423.00800000000004 1051.508 504.14300000000003 1045.357 580.627 1048.121 655.403 1070.157 728.902 1094.953 811.607 1116.048 904.538 1186.513 954.434 1257.617 1004.783 1352.886 989.381 1440 990.787' fill='%23dbed24'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1042'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e") ;
+    background-size: 100%;
+
+    color: var(--c4-color);
+    display: grid;
+    width: 100px;
+    padding: 25px;
+    margin: 50px;
+    position: static;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+img{
+    width: 400px;
+    border-radius: 100px;
+    border: 2px black solid;
+    margin: 25px;
+    
+}
+
+.divClass{
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    margin: 1px;
+    
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: var(--c3-color);
+    padding: 50px;
+    border: 3px solid black;
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin: 100px;
+    border-radius: 28px;
+    
+}
+
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+    
+}
+
+ul {
+    list-style-type: none;
+    align-items: center;
+    margin: 0;
+    
+}
+

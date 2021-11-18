@@ -10,13 +10,13 @@ const nuevoNum = 89;
 const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - null === 5;
+const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * null === 40 ;
+const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === null;
+const nuevoModulo = 21 % 5 === 1;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -61,23 +61,13 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-    if (x == y){
-      return true
-    }else{
-      return false
-    }
-} 
-
+      return x === y;  
+}
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-    if (str1.length == str2.length){
-      return true;
-      
-    }
-      return false;
-    
+   return str1.length === str2.length;
 }    
 
 
@@ -85,10 +75,10 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-    if(num < 90){
-      return true;
+    if(num < 90) {
+      return true
     }
-    return false;
+      return false;
 } 
 
 function mayorQueCincuenta(num) {
@@ -172,10 +162,10 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
     if (Math.sign(numero) == 1 ){
-      return "El numero es Positivo";
+      return "Es positivo";
       
     } else if (Math.sign(numero) == -1) {
-      return "El numero es Negativo"
+      return "Es negativo"
     } 
       return false ;
     
@@ -228,7 +218,7 @@ function deEuroAdolar(euro){
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
   let x = euro * 1.20
-    return (euro + " Euros son " + x + " Dolares" );
+    return x;
 } 
 
 
@@ -239,11 +229,11 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
     if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u') {
-      console.log("Es una vocal")
+      return "Es vocal"
     } else if (letra.length >= 2) {
-      console.log("Dato Incorrecto")
+      return "Dato incorrecto"
     } else {
-      console.log("Dato Incorrecto 2")
+      return "Dato incorrecto"
     }
 } 
 

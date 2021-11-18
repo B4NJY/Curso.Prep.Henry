@@ -7,32 +7,58 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-
+    display: block;
+    text-align: center;
 }
 
 
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
+#ejercicioDos{
+    display: none;
+
+}
 
 
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
+#ejercicioTres{
+    margin-top: 100px;
+    margin-left: 200px;
+    position: absolute; /* Copn absolute , tenemos el control total del elemnto para posicionarlo donde queremos*/
+}
 
 
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
+#ejercicioCuatro{
+    position: fixed; /* La posicion sera Fija , Tambien hace que se mueva ala par del scroll*/
+    top: 0;
+    left: 0;
+
+}
 
 
 
-/* Ejercicio 5: */
+/* Ejercicio 5 y 6: */
 
 /* Acá va tu código */
+#ejercicioCinco{
+    display: flex; /*Trae muchas propiedades*/
+    justify-content: space-evenly; /*esto solo se aplica cuando esta display flex*/
+    align-items: center; /*Alinmeacion vertical , tambien es de position flex*/
+    flex-direction: row-reverse;
+}
 
 
 
-/* Ejercicio 6. */
+/* Ejercicio 7. */
+
+#ejercicioSiete{
+    
+}
